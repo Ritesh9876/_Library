@@ -1,6 +1,6 @@
 const moongose= require('mongoose')
 
-const mongoURL="mongodb+srv://Ritesh:sc4TmNq6WM9nLzi@cluster0.lo8p3kk.mongodb.net/?retryWrites=true&w=majority"
+const mongoURL=""
 
 const connectDB= async () =>{
     try{
@@ -15,4 +15,4 @@ const connectDB= async () =>{
 module.exports = connectDB
 
 //
-//mongodb+srv://Ritesh:sc4TmNq6WM9nLzi@cluster0.lo8p3kk.mongodb.net/?retryWrites=true&w=majority
+//mongodb+srv://Ritesh:<password>@cluster0.lo8p3kk.mongodb.net/?retryWrites=true&w=majority
